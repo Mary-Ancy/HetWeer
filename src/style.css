@@ -1,0 +1,25 @@
+body {
+  background-color: rgba(252, 193, 105, 0.493);
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.weather-app {
+  background: whitesmoke;
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin: 50px auto;
+  padding: 40px;
+  box-shadow: 0 40px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 20px;
+}
+.search-button {
+  background: #885df1;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}

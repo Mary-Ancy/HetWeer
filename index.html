@@ -3,35 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>HetWeer</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Brussels</h1>
-        <p>
-          Saturday 13:30,Cloudy
-          <br />
-          Humidity: 87%, Wind: 7km/h
-        </p>
-      </div>
-      <div>☁️13°c</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>☁️13°c</h1>
+          <h2>Brussels</h2>
+          <p>
+            Saturday 13:30,Cloudy
+            <br />
+            Humidity: 87%, Wind: 7km/h
+          </p>
+        </div>
+      </main>
 
-    <footer>
-      Coded by<a href="https://github.com/mary-ancy" target="_blank"
-        >Mary Ancy</a
-      >
-      Open-sourced on
-      <a href="https://github.com/Mary-Ancy/HetWeer" target="_blank">Guithub</a>
-      and Website hosted on
-      <a href="https://hetweer.netlify.app/" target="_blank"> Netlify</a>
-    </footer>
+      <footer>
+        Coded by<a href="https://github.com/mary-ancy" target="_blank"
+          >Mary Ancy</a
+        >
+        Open-sourced on
+        <a href="https://github.com/Mary-Ancy/HetWeer" target="_blank"
+          >Guithub</a
+        >
+        and Website hosted on
+        <a href="https://hetweer.netlify.app/" target="_blank"> Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>

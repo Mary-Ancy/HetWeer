@@ -5,8 +5,8 @@ body {
   font-style: normal;
 }
 .weather-app {
-  background: whitesmoke;
-  max-width: 500px;
+  background: rgb(245, 245, 245);
+  max-width: 600px;
   height: 500px;
   margin: 0 auto;
   margin: 50px auto;
@@ -15,11 +15,26 @@ body {
   border-radius: 20px;
 }
 .search-button {
-  background: #885df1;
+  background: rgb(228, 94, 94, 0.2);
   padding: 15px 30px;
   border: none;
   font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
-  color: white;
+  color: rgb(79, 7, 10);
+}
+.weather-app-details strong {
+  color: rgb(139, 46, 226);
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+.search-input {
+  background-color: rgb(245, 115, 238, 0.2);
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
 }

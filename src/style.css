@@ -5,36 +5,90 @@ body {
   font-style: normal;
 }
 .weather-app {
-  background: rgb(245, 245, 245);
+  background: rgb(255, 255, 255, 0.2);
   max-width: 600px;
-  height: 500px;
-  margin: 0 auto;
+  height: 900px;
   margin: 50px auto;
   padding: 40px;
-  box-shadow: 0 40px 60px rgba(65, 50, 100, 0.08);
+  box-shadow: 0px 70px 90px rgba(65, 50, 100, 0.08);
   border-radius: 20px;
 }
-.search-button {
-  background: rgb(228, 94, 94, 0.2);
-  padding: 15px 30px;
-  border: none;
-  font-size: 16px;
-  margin-left: 5px;
-  border-radius: 6px;
-  color: rgb(79, 7, 10);
-}
+
 .weather-app-details strong {
-  color: rgb(139, 46, 226);
+  color: rgb(193, 127, 28);
 }
 header {
   border-bottom: 1px solid #f9f7fe;
-  padding: 0 0 30px 0;
+  padding: 0 0 10px 0;
+  margin-bottom: 0px;
+}
+.search-form {
+  margin-left: 120px;
+  margin-right: -50px;
 }
 .search-input {
   background-color: rgb(245, 115, 238, 0.2);
   border: none;
   border-radius: 6px;
-  width: 80%;
+  width: 50%;
+  font-size: 14px;
+  padding: 7px 5px;
+}
+.search-button {
+  background: rgb(228, 94, 94, 0.2);
+  padding: 8px 18px;
+  border: none;
+  font-size: 12px;
+  margin-left: 2px;
+  border-radius: 6px;
+  color: rgb(79, 7, 10);
+}
+main {
+  padding: 10px 0;
+}
+.weather-app-box {
+  text-align: center;
+  justify-content: space-between;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.weather-app-city {
+  text-align: center;
+  margin: 0;
+  font-size: 38px;
+  line-height: 38px;
+  text-shadow: 5px 5px 10px rgba(54, 32, 56, 0.4);
+  color: #6c1d72;
+}
+.weather-app-details {
+  text-align: center;
   font-size: 16px;
-  padding: 15px 20px;
+  color: rgba(92, 46, 74, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+.weather-app-icon {
+  font-size: 80px;
+  margin-top: 3px;
+}
+.weather-app-temp {
+  font-size: 60px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+.weatehr-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  margin-top: 80px;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }

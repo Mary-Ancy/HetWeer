@@ -72,7 +72,7 @@ h1 {
   font-weight: 500;
 }
 .weather-app-icon {
-  font-size: 80px;
+  width: 200px;
   margin-top: 3px;
 }
 .weather-app-temp {

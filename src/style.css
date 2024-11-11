@@ -103,8 +103,7 @@ h1 {
   line-height: 20px;
 }
 .forecast-icon {
-  text-align: center;
-  font-size: 38px;
+  width: 100%;
 }
 .forecast-temps {
   color: rgb(193, 127, 28);

@@ -5,7 +5,9 @@ body {
   font-style: normal;
 }
 .weather-app {
-  background: rgb(255, 255, 255, 0.2);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/952/original/background.jpg?1731276292);
+  background-size: cover;
+  background-position: center top;
   max-width: 600px;
   height: 900px;
   margin: 50px auto;
@@ -59,17 +61,19 @@ h1 {
 .weather-app-city {
   text-align: center;
   margin: 0;
+  margin-right: 30px;
   font-size: 38px;
   line-height: 38px;
-  text-shadow: 5px 5px 10px rgba(54, 32, 56, 0.4);
-  color: #6c1d72;
+  text-shadow: 8px 14px 9px rgba(245, 69, 16, 0.2);
+  color: #f54510;
 }
 .weather-app-details {
   text-align: center;
   font-size: 16px;
   color: rgba(92, 46, 74, 0.4);
-  line-height: 24px;
+  line-height: 20px;
   font-weight: 500;
+  margin-right: 40px;
 }
 .weather-app-icon {
   width: 200px;
@@ -83,6 +87,33 @@ h1 {
 .weatehr-app-unit {
   margin-top: 16px;
   font-size: 28px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.forecast-day {
+  margin-top: 30px;
+}
+.forecast-date {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+}
+.forecast-icon {
+  text-align: center;
+  font-size: 38px;
+}
+.forecast-temps {
+  color: rgb(193, 127, 28);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.forecast-temp {
+  padding: 0 10px;
 }
 footer {
   border-top: 1px solid #f9f7fe;

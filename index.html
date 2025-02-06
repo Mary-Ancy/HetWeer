@@ -15,18 +15,19 @@
   </head>
   <body>
     <div class="weather-app">
-      <header>
-        <form class="search-form" id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city..."
-            required
-            class="search-input"
-            id="search-input"
-          />
-          <input type="submit" value="search" class="search-button" />
-        </form>
-      </header>
+      <form class="search-form" id="search-form">
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          required
+          class="searchInput"
+          id="searchInput"
+        />
+        <button class="search-button">
+          <img src="image/search button.png" alt="search-icon" />
+        </button>
+      </form>
+
       <main>
         <div>
           <div class="weather-app-box">
@@ -40,7 +41,9 @@
           <p class="weather-app-details">
             <br />
             <span id="time"></span>
-            <span id="description"> Cloudy</span>
+            <span id="description" style="margin-bottom: 10px; display: block">
+              Cloudy</span
+            >
             <br />
             Humidity: <strong id="humidity"></strong>, Wind:
             <strong id="wind">km/h</strong>
